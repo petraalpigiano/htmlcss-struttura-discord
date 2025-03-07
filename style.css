@@ -72,6 +72,22 @@ PER VEDERE STRUTTURA
     background-color: #ffc1ca;
     height: 350px;
 }
+.big-block {
+    height: 500px;
+    background-color: #208b21;
+}
 /* FOOTER */
-
+.footer {
+    background-color: #add8e7;
+}
+.footer > .container {
+    display: flex;
+    padding: 10px; 
+}
+.footer > .container div {
+    border: 2px dashed black;
+    flex-grow: 1;
+    background-color: #7fffd4;
+    padding: 10px;
+}
 
